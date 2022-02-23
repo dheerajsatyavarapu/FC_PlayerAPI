@@ -1,6 +1,6 @@
 # FC_PlayerAPI
 
-This application is an **REST API** regarding Football Players which has two endpints i.e.,
+This application is a **REST API** regarding Football Players which has two endpints i.e.,
 1. [localhost:8080/playerstats](localhost:8080/playerstats): 
 Fetches all the players with overall score greater than 90
 2. [localhost:8080/countrystats](localhost:8080/countrystats): 
@@ -13,7 +13,7 @@ Fetches average overall score of players grouped by country
 2. urls.py-> views.py (Class Based inherited from APIView)
 3. Query Set retrieval from django models using Django ORM
 4. Serialize retrieved Queryset to JSON format
-5. Sending responce to endpoint. 
+5. Sending response to endpoint. 
 
 ### How to Use:
 1. Set up a virtual environiment
